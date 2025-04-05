@@ -26,7 +26,7 @@ class TextToSpeechRequest(BaseModel):
                                  description="Speech speed multiplier")
     
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "text": "Hello, this is a test of the AI avatar speech synthesis system.",
                 "voice": "female_1",
@@ -59,7 +59,7 @@ class GenerateAnimationRequest(BaseModel):
         raise ValueError("Avatar image must be a URL or a valid filename in the static directory")
     
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "text": "Hello, this is an example of facial animation with an AI avatar.",
                 "avatar_image": "default_avatar.jpg",
@@ -76,7 +76,7 @@ class AnimationStyle(BaseModel):
                                          description="Whether to enhance lip synchronization")
     
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "motion_strength": 1.0,
                 "still_mode": False,
