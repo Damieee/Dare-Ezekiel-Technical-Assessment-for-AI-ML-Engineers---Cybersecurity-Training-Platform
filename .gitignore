@@ -1,16 +1,56 @@
-# Byte-compiled / optimized / DLL files
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Environment and virtual environments
+.env
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+outputs/
+results/
+/llm_finetuning/results/
+/graphrag/data/faiss_index.idx
+/graphrag/data/metadata.pkl
+/ai_avatar/outputs/
+
+# Logs
+*.log
+logs/
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -21,7 +61,6 @@ sdist/
 var/
 wheels/
 share/python-wheels/
-*.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
@@ -36,27 +75,11 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-
 # Translations
 *.mo
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -74,9 +97,6 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -128,10 +148,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.venv
-env/
-venv/
 ENV/
 env.bak/
 venv.bak/
