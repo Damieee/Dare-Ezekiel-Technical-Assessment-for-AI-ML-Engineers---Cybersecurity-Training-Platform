@@ -1,0 +1,134 @@
+{
+    "relationships": [
+        {
+            "source": "SQL Injection",
+            "target": "Encryption",
+            "type": "MITIGATED_BY",
+            "properties": {
+                "effectiveness": "Medium",
+                "implementation_difficulty": "Low"
+            }
+        },
+        {
+            "source": "SQL Injection",
+            "target": "Firewall",
+            "type": "DETECTED_BY",
+            "properties": {
+                "effectiveness": "Low",
+                "implementation_difficulty": "Medium"
+            }
+        },
+        {
+            "source": "Cross-Site Scripting (XSS)",
+            "target": "Firewall",
+            "type": "DETECTED_BY",
+            "properties": {
+                "effectiveness": "Low",
+                "implementation_difficulty": "Medium"
+            }
+        },
+        {
+            "source": "Cross-Site Request Forgery (CSRF)",
+            "target": "Multi-factor Authentication (MFA)",
+            "type": "MITIGATED_BY",
+            "properties": {
+                "effectiveness": "High",
+                "implementation_difficulty": "Medium"
+            }
+        },
+        {
+            "source": "Phishing",
+            "target": "Social Engineering",
+            "type": "IS_TYPE_OF",
+            "properties": {
+                "prevalence": "Very High"
+            }
+        },
+        {
+            "source": "Phishing",
+            "target": "Multi-factor Authentication (MFA)",
+            "type": "MITIGATED_BY",
+            "properties": {
+                "effectiveness": "High",
+                "implementation_difficulty": "Low"
+            }
+        },
+        {
+            "source": "Denial of Service (DoS)",
+            "target": "Distributed Denial of Service (DDoS)",
+            "type": "RELATED_TO",
+            "properties": {
+                "relationship_strength": "High"
+            }
+        },
+        {
+            "source": "Denial of Service (DoS)",
+            "target": "Firewall",
+            "type": "MITIGATED_BY",
+            "properties": {
+                "effectiveness": "Medium",
+                "implementation_difficulty": "Medium"
+            }
+        },
+        {
+            "source": "Distributed Denial of Service (DDoS)",
+            "target": "Firewall",
+            "type": "MITIGATED_BY",
+            "properties": {
+                "effectiveness": "Low",
+                "implementation_difficulty": "High"
+            }
+        },
+        {
+            "source": "Man-in-the-Middle (MitM)",
+            "target": "Encryption",
+            "type": "MITIGATED_BY",
+            "properties": {
+                "effectiveness": "High",
+                "implementation_difficulty": "Medium"
+            }
+        },
+        {
+            "source": "Ransomware",
+            "target": "Social Engineering",
+            "type": "DELIVERED_VIA",
+            "properties": {
+                "frequency": "High"
+            }
+        },
+        {
+            "source": "Ransomware",
+            "target": "Phishing",
+            "type": "DELIVERED_VIA",
+            "properties": {
+                "frequency": "Very High"
+            }
+        },
+        {
+            "source": "Zero-day Vulnerability",
+            "target": "Intrusion Detection System (IDS)",
+            "type": "DETECTED_BY",
+            "properties": {
+                "effectiveness": "Medium",
+                "implementation_difficulty": "High"
+            }
+        },
+        {
+            "source": "Zero-day Vulnerability",
+            "target": "Intrusion Prevention System (IPS)",
+            "type": "MITIGATED_BY",
+            "properties": {
+                "effectiveness": "Medium",
+                "implementation_difficulty": "High"
+            }
+        },
+        {
+            "source": "Intrusion Detection System (IDS)",
+            "target": "Intrusion Prevention System (IPS)",
+            "type": "RELATED_TO",
+            "properties": {
+                "relationship_strength": "Very High"
+            }
+        }
+    ]
+}
