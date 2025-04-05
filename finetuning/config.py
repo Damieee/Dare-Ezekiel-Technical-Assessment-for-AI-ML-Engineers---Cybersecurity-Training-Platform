@@ -4,7 +4,7 @@ from typing import Optional
 
 class Settings(BaseSettings):
     """Application settings using Pydantic BaseSettings for environment variable loading"""
-    
+
     # API Settings
     API_TITLE: str = "Qwen Cybersecurity API"
     API_DESCRIPTION: str = "FastAPI application for fine-tuning and inferencing with Qwen 2.5 on cybersecurity data"
