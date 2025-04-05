@@ -1,0 +1,79 @@
+{
+    "concepts": [
+        {
+            "name": "SQL Injection",
+            "description": "SQL injection is a code injection technique used to attack data-driven applications by inserting malicious SQL statements into entry fields for execution. It allows attackers to access, modify, or delete data in a database without proper authorization.",
+            "category": "Attack Vector"
+        },
+        {
+            "name": "Cross-Site Scripting (XSS)",
+            "description": "Cross-site scripting is a security vulnerability that allows attackers to inject client-side scripts into web pages viewed by other users. This can be used to bypass access controls, steal cookies, or redirect users to malicious sites.",
+            "category": "Attack Vector"
+        },
+        {
+            "name": "Cross-Site Request Forgery (CSRF)",
+            "description": "Cross-Site Request Forgery is an attack that forces authenticated users to execute unwanted actions on a web application in which they're currently authenticated. The attacker tricks victims into submitting requests they didn't intend.",
+            "category": "Attack Vector"
+        },
+        {
+            "name": "Phishing",
+            "description": "Phishing is a cybercrime where attackers disguise themselves as trustworthy entities to obtain sensitive information like usernames, passwords, and credit card details through fraudulent communications, typically via email.",
+            "category": "Social Engineering"
+        },
+        {
+            "name": "Denial of Service (DoS)",
+            "description": "Denial of Service is an attack aimed at shutting down a machine or network, making it inaccessible to its intended users by flooding the target with traffic or sending information that triggers a crash.",
+            "category": "Attack Vector"
+        },
+        {
+            "name": "Distributed Denial of Service (DDoS)",
+            "description": "DDoS is an attack where multiple compromised computer systems attack a target, such as a server or website, causing a denial of service for users by overwhelming the target with incoming traffic.",
+            "category": "Attack Vector"
+        },
+        {
+            "name": "Man-in-the-Middle (MitM)",
+            "description": "Man-in-the-Middle is an attack where the attacker secretly relays and possibly alters the communications between two parties who believe they are directly communicating with each other.",
+            "category": "Attack Vector"
+        },
+        {
+            "name": "Ransomware",
+            "description": "Ransomware is a type of malicious software that encrypts a victim's files and demands a ransom payment to restore access to the data. Modern ransomware often also threatens to publish sensitive data if payment is not made.",
+            "category": "Malware"
+        },
+        {
+            "name": "Zero-day Vulnerability",
+            "description": "A zero-day vulnerability is a software security flaw that is unknown to those who should be interested in mitigating the vulnerability, including the vendor. Zero-day exploits are used by attackers before the developer has created and released a patch.",
+            "category": "Vulnerability"
+        },
+        {
+            "name": "Social Engineering",
+            "description": "Social engineering is the psychological manipulation of people into performing actions or divulging confidential information. It relies on human error rather than technical hacking techniques to gain access to systems and data.",
+            "category": "Attack Methodology"
+        },
+        {
+            "name": "Multi-factor Authentication (MFA)",
+            "description": "Multi-factor authentication is a security system that requires more than one method of authentication from independent categories of credentials to verify the user's identity for a login or other transaction.",
+            "category": "Defense Mechanism"
+        },
+        {
+            "name": "Encryption",
+            "description": "Encryption is the process of encoding information so that only authorized parties can access it. It converts readable data into an encoded format that can only be decoded with the appropriate decryption key.",
+            "category": "Defense Mechanism"
+        },
+        {
+            "name": "Firewall",
+            "description": "A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It establishes a barrier between a trusted internal network and untrusted external networks.",
+            "category": "Defense Mechanism"
+        },
+        {
+            "name": "Intrusion Detection System (IDS)",
+            "description": "An intrusion detection system is a device or software application that monitors a network or systems for malicious activity or policy violations. It can detect and report to administrators any suspicious activities.",
+            "category": "Defense Mechanism"
+        },
+        {
+            "name": "Intrusion Prevention System (IPS)",
+            "description": "An intrusion prevention system is a network security device that continuously monitors a network for malicious activities and takes automated actions to prevent or block detected threats, unlike an IDS which only detects and reports.",
+            "category": "Defense Mechanism"
+        }
+    ]
+}
